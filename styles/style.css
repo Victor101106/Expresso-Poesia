@@ -1,0 +1,262 @@
+/* ? Font and Icon Imports ? */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200..700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css');
+
+/* ? General Style ? */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ? Tags Style ? */
+
+body {
+
+    background-image: url("../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+
+    min-height: 100vh;
+    max-height: 100%;
+
+}
+
+button {
+    background-color: #dfbfaa;
+    color: #502A29;
+}
+
+button i {
+    margin-left: .3rem;
+}
+
+/* ? Effect Style ? */
+
+.blur-effect {
+    backdrop-filter: blur(10px);
+}
+
+/* ? Header Style ? */
+
+#header {
+    grid-template-columns: 1fr max-content 1fr;
+    place-items: center;
+    padding: 1.8rem;
+    display: grid;
+}
+
+#header-logomark {
+    height: 3rem;
+}
+
+#header-nav {
+    font-size: 1.1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.header-nav-item {
+    text-decoration: none;
+    color: #fff;
+}
+
+#header-button {
+    padding: .8rem 1.6rem;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    color: #000;
+    border: none;
+}
+
+/* ? Home Container Style ? */
+
+#container-home {
+    justify-content: center;
+    padding: 7rem 0rem 9rem 0rem;
+    align-items: center;
+    display: flex;
+    gap: 3rem;
+    color: white;
+}
+
+#container-home-title > * {
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+#container-home-title-text-1 {
+    letter-spacing: 1.2rem;
+    font-size: 7rem;
+}
+
+#container-home-title-text-2 {
+    letter-spacing: 1.2rem;
+    position: absolute;
+    margin-left: 3rem;
+    font-size: 7rem;
+}
+
+#container-home-title-text-3 {
+    font-size: 9.9rem;
+    color: #dfbfaa;
+}
+
+#container-home-title-text-4 {
+    letter-spacing: 1rem;
+    font-size: 11rem;
+}
+
+#container-home div {
+    padding-top: 7rem;
+}
+
+#container-home-subtitle {
+    margin-bottom: 4rem;
+    text-align: justify;
+    font-size: 1.2rem;
+    width: 20rem;
+}
+
+#container-home-button {
+    padding: 1.8rem 2.6rem;
+    border-radius: 0.8rem;
+    font-size: 1.1rem;
+    color: #000;
+    border: none;
+}
+
+/* ? Contact Container Style ? */
+
+#container-contact {
+    text-align: center;
+}
+
+#container-contact-title {
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 4rem;
+    color: #fff;
+}
+
+#container-contact-subtitle {
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #dfbfaa;
+}
+
+#container-contact-list {
+    width: fit-content;
+    display: flex;
+    margin: auto;
+    gap: 4rem;
+}
+
+.container-contact-list-item {
+    line-height: 140%;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.container-contact-list-item i {
+    font-size: 1.4rem;
+    color: #dfbfaa;
+}
+
+/* ? Poems Container Style ? */
+
+#container-poems {
+    justify-content: center;
+    padding-block: 4rem;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+    width: 90%;
+    gap: 4rem;
+}
+
+.container-poems-item {
+    background-color: rgba(0, 0, 0, .5);
+    border: .1rem #363636 solid;
+    backdrop-filter: blur(10px);
+    border-radius: .4rem;
+    width: min-content;
+    overflow: hidden;
+}
+
+.container-poems-item-cover {
+    height: 10rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container-poems-item-content {
+    text-wrap: nowrap;
+    font-size: 1.2rem;
+    padding: 2rem;
+    color: #fff;
+}
+
+/* ? Footer Style ? */
+
+#footer {
+    padding-top: 2rem;
+    text-align: center;
+    color: #fff;
+}
+
+#footer-title {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#footer-subtitle {
+    margin-bottom: 1rem;
+    font-size: .9rem;
+}
+
+#footer-social-media {
+    justify-content: center;
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-social-media-link {
+    text-decoration: none;
+}
+
+.footer-social-media-icon {
+    font-size: 1.3rem;
+    color: #dfbfaa;
+}
+
+#footer-copyright {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding-block: 1rem;
+    font-size: .9rem;
+    color: #fff;
+    width: 100%;
+}
+
+#footer-copyright span {
+    color: #dfbfaa;
+}
