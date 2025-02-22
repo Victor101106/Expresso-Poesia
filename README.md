@@ -16,8 +16,18 @@
 
 ## Content Table
 
+- [Description](#description)
+- [Preview](#preview)
 - [Screenshot](#screenshot)
 - [Contact](#contact)
+
+## Description
+
+Expresso Poesia is a website developed as a project for the Web Systems Development course. It showcases a collection of poems written by a student, providing a digital space for literary expression and appreciation.
+
+## Preview
+
+🔗 [Expresso Poesia - Preview](https://victor101106.github.io/Expresso-Poesia/)
 
 ## Screenshot
 
